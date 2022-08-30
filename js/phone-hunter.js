@@ -24,8 +24,8 @@ const displayPhones = (phones, dataLimit) => {
         phoneDiv.classList.add('col');
         phoneDiv.innerHTML = `
         <div class="card bg-light">
-        <div class="p-5">
-            <img src="${phone.image}" class="card-img-top p-5" alt="...">
+        <div class="d-flex justify-content-center mt-3">
+            <img src="${phone.image}" class="card-img-top w-50" alt="...">
         </div>
             <div class="card-body">
                 <h5 class="card-title">${phone.phone_name}</h5>
